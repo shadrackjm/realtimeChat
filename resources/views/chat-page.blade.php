@@ -50,7 +50,7 @@
     
 
 <script>
-    var ably = new Ably.Realtime('28DzIw.xdCtoA:J9vNpIBu3MixoR218By72WEFjXqn9ut7qgVERZEi6OM'); //remember to pass your ably API key
+    var ably = new Ably.Realtime('pass your API KEY HERE'); //remember to pass your ably API key
     var channel = ably.channels.get('chatting'); // here i create a channel or initialize the existing channel
     var messagesDiv = document.getElementById('messages');
     var senderName = document.getElementById('senderName'); //get a sender name
